@@ -1,0 +1,23 @@
+
+1
+
+POST
+http://localhost:8080/oauth/token?grant_type=password&username=tdj&password=1234
+
+Headers
+Authorization Basic amRiY3Rlc3R1c2VyOmpkYmN0ZXN0dXNlcnNlY3JldA==
+
+
+2
+
+POST
+http://localhost:8080/user/registration?access_token=8a414954-1f3b-48a0-b1d8-05c55026e7f0
+
+Headers
+Content-Type application/x-www-form-urlencoded
+
+Body
+x-www-form-urlencoded
+
+username value
+password value
